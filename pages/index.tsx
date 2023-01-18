@@ -22,12 +22,20 @@ export default function Home() {
         </p>
 
         <form>
-          <label htmlFor="fname">First name:</label><br/>
-          <input type="text" id="fname" name="fname"/><br/>
-          <label htmlFor="lname">Last name:</label><br/>
-          <input type="text" id="lname" name="lname"/><br/>
-          <input type="submit" value="Sign in"/>
-        </form> 
+          <label htmlFor="fname">First name:</label>
+          <br />
+          <input type="text" id="fname" name="fname" />
+          <br />
+          <label htmlFor="lname">Last name:</label>
+          <br />
+          <input type="text" id="lname" name="lname" />
+          <br />
+          <label htmlFor="email">email:</label>
+          <br />
+          <input type="text" id="email" name="email" />
+          <br />
+          <input type="submit" value="Sign in" />
+        </form>
 
         <div className={styles.grid}>
           <a href="https://nextjs.org/docs" className={styles.card}>
