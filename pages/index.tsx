@@ -25,7 +25,8 @@ export default function Home() {
           <label htmlFor="fname">First name:</label><br/>
           <input type="text" id="fname" name="fname"/><br/>
           <label htmlFor="lname">Last name:</label><br/>
-          <input type="text" id="lname" name="lname"/>
+          <input type="text" id="lname" name="lname"/><br/>
+          <input type="submit" value="Sign in"/>
         </form> 
 
         <div className={styles.grid}>
