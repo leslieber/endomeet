@@ -21,6 +21,13 @@ export default function Home() {
           <code className={styles.code}>pages/index.tsx</code>
         </p>
 
+        <form>
+          <label htmlFor="fname">First name:</label><br/>
+          <input type="text" id="fname" name="fname"/><br/>
+          <label htmlFor="lname">Last name:</label><br/>
+          <input type="text" id="lname" name="lname"/>
+        </form> 
+
         <div className={styles.grid}>
           <a href="https://nextjs.org/docs" className={styles.card}>
             <h2>Documentation &rarr;</h2>
