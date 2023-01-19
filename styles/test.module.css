@@ -82,6 +82,11 @@
     font-size: 20px;
 }
 
+.legal_content a:hover {
+    text-decoration: underline;
+    color: #8b77c3;
+}
+
 .legal-text{
     margin-right: 16px;
 }
