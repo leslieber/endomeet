@@ -22,6 +22,7 @@ export default function Home() {
 	} else {
   return (
 <div>
+  
       <Head>
         <title>EndoMeet Register</title>
         <link rel="preconnect" href="https://fonts.googleapis.com"/>
