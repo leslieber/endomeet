@@ -62,6 +62,7 @@ export default function Home() {
                 <input type="text" id="username" name="username" placeholder='User name*' />
                 <br/>
                 <br/>
+                <br/>
                 <input type="text" id="email" name="email" placeholder='E-mail address*' />
                 <br />
                 <br/>
