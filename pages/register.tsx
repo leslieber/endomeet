@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import style from '../styles/test.module.css'
+import style from '../styles/layout.module.css'
 import React from 'react';
 
 
@@ -62,7 +62,6 @@ export default function Home() {
                 <input type="text" id="username" name="username" placeholder='User name*' />
                 <br/>
                 <br/>
-                <br/>
                 <input type="text" id="email" name="email" placeholder='E-mail address*' />
                 <br />
                 <br/>
@@ -74,7 +73,7 @@ export default function Home() {
         </div>
 
         <div className={style.legal_content}>
-        <span className="legal-text">(c) EndoMeet</span>   <a href="#">Contact</a>   <a href="#">Data Protection</a> <a href="#">Cookies</a>
+        <span className="legal-text">&#169; EndoMeet</span>   <a href="#">Contact</a>   <a href="#">Data Protection</a> <a href="#">Cookies</a>
         </div>
 
       </body>

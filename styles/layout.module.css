@@ -1,16 +1,17 @@
-.welcome {
-    color: red;
-}
-
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center; 
     background: #91E3C9;
-    height: 30px;
+    height: 35px;
     border: 2px solid rgba(107, 76, 189, 0.5);
     box-shadow: #5C5454;
-
+    position: fixed; /*header fixed at top*/
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 1; /*fixed the overlapping of center elements while scrolling*/
+    box-shadow: 0 7px 6px -6px #777;
 }
 .navbar a {
     color: #6B4CBD;
@@ -41,6 +42,7 @@
     align-items: center;
     margin-top: 100px;
     margin-bottom: 100px;
+
 }
 
 .register_form{
@@ -67,9 +69,13 @@
     justify-content:left;
     background: #91E3C9;
     height: 30px;
-    border: 1px solid #000000;
-    box-shadow: #5C5454;
-    
+    border: 2px solid rgba(107, 76, 189, 0.5);
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    align-items: center;
+    box-shadow: 0 -7px 6px -6px #777;
     
 }
 
@@ -79,7 +85,7 @@
     margin-left: 16px;
     margin-right: 16px;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .legal_content a:hover {
