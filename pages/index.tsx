@@ -22,21 +22,33 @@ export default function Home() {
         </p>
 
         <form>
-          <label htmlFor="fname">First name:</label>
-          <br />
-          <input type="text" id="fname" name="fname" />
-          <br />
-          <label htmlFor="lname">Last name:</label>
-          <br />
-          <input type="text" id="lname" name="lname" />
-          <br />
-          <label htmlFor="email">email:</label>
-          <br />
-          <input type="text" id="email" name="email" />
-          <br />
-          <input type="submit" value="Sign in" />
-        </form>
+  <div style={{display: 'flex'}}>
+    <div style={{flex: 1}}>
+      <label htmlFor="firstname">First Name:</label>
+      <input type="text" id="firstname" name="firstname"/>
+    </div>
+    <div style={{flex: 2}}>
+      <label htmlFor="lastname">Last Name:</label>
+      <input type="text" id="lastname" name="lastname"/>
+    </div>
+  </div>
+  <div style={{display: 'flex'}}>
+    <div style={{flex: 3}}>
+      <label htmlFor="password">Password:</label>
+      <input type="password" id="password" name="password"/>
+    </div>
+  </div>
+  <div style={{display: 'flex'}}>
+    <div style={{flex: 3}}>
+      <label htmlFor="email">Email:</label>
+      <input type="email" id="email" name="email"/>
+    </div>
+  </div>
+  <input type="submit" value="Submit"/>
+</form>
 
+
+        
         <div className={styles.grid}>
           <a href="https://nextjs.org/docs" className={styles.card}>
             <h2>Documentation &rarr;</h2>

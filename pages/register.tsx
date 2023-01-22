@@ -39,7 +39,7 @@ export default function Home() {
             <a href="#">Forum</a>
             </div>
 
-            <div>
+            <div className={style.searchbar}>
             <input type="text" id="search" name="search" placeholder='Search'/>
             </div>
 

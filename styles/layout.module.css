@@ -36,12 +36,16 @@
     font-size: 15px;
 }
 
+.searchbar {
+    align-items: center; /* Center the text inside the middle container */
+    margin: 0 auto; /* Center the container horizontally */
+}
+
 .middle {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 100px;
-    margin-bottom: 100px;
+    min-height: 100vh; /*container takes up at least the full screen*/
 
 }
 
