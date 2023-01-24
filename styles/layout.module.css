@@ -137,3 +137,95 @@
 .legal-text {
     margin-right: 16px;
 }
+
+.box {
+    padding: 25px 30px;
+    border-radius: 5px;
+    border: 2px solid rgba(107, 76, 189, 0.5);
+}
+
+.box .titleform {
+    font-size: 30px;
+    font-weight: 500;
+    position: relative;
+    text-align: center;
+    bottom: 10px;
+}
+
+.box .titleform::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 1px;
+    width: 100%;
+    background: #5C5454;
+}
+
+.box form .userfullname{
+    display: flex;
+    justify-content: space-between;
+    /*border: 1px solid #000000;*/
+}
+
+.box form .userdetails {
+    position: relative;
+    /*border: 1px solid #000000;*/
+    padding-bottom: 10px;
+
+}
+
+.box .userfullname .inputbox {
+    width: 50%;
+    margin: 5px; 
+}
+
+.box .userfullname input  {
+    height: 40px;
+    font-size: 18px;
+    background: #ebebeb;
+    border-radius: 5px;
+    padding-left: 7px;
+}
+
+.box .userdetails input {
+    width: 97%;
+    margin: 5px;
+    height: 40px;
+    font-size: 18px;
+    background: #ebebeb;
+    border-radius: 5px;
+    padding-left: 7px;
+}
+
+form .genderdetails .gendertitle {
+    font-size: 22px;
+    font-weight: 400;
+    margin: 5px;    
+}
+
+form .genderdetails .category {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-top: 7px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+    font-size: 18px;       
+}
+
+.genderdetails .category .dot{
+    margin-left: 15px;
+}
+
+#dot:checked {
+    border-color: #6B4CBD;
+    background: #91E3C9;
+}
+
+
+
+/*.genderdetails .category label{
+    display: flex;
+    align-items: center;
+}*/
