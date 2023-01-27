@@ -81,25 +81,25 @@ export default function Home() {
                     <legend>For what do you want to use EndoMeet? (Multiple answers possible)</legend>
                      <div>
                         <input 
-                        type="radio" id="help" name="usage" value="help"
+                        type="checkbox" id="help" name="usage" value="help"
                         />
                         <label htmlFor="help">I want to help others who are suffering from endometriosis by sharing my experiences.</label>
                     </div>
                     <div>
                         <input 
-                        type="radio" id="learn" name="usage" value="learn"
+                        type="checkbox" id="learn" name="usage" value="learn"
                         />
                         <label htmlFor="learn">I am not affected but I want to learn more about endometriosis.</label>
                     </div>
                     <div>
                         <input 
-                        type="radio" id="affected" name="usage" value="affected"
+                        type="checkbox" id="affected" name="usage" value="affected"
                         />
                         <label htmlFor="affected">I am affected and would like to exchange problems / experiences with others in the same position.</label>
                     </div>
                     <div>
                         <input 
-                        type="radio" id="experiences" name="usage" value="experiences"
+                        type="checkbox" id="experiences" name="usage" value="experiences"
                         />
                         <label htmlFor="experiences">I would like to share my experiences with others who want to learn more about endometriosis.</label>
                     </div>   
@@ -169,7 +169,7 @@ export default function Home() {
                     </div>   
                     <br/>
                     <div className={style.form_button}>
-                    <a href="#">Submit</a>
+                    <input type="submit" value="Submit"/>
 
                     </div>
             </form>
