@@ -2,7 +2,8 @@ import Head from 'next/head'
 import Image from 'next/image'
 import style from '../styles/layout.module.css'
 import React from 'react';
-
+import Header from '../components/header';
+import Footer from '../components/footer';
 
 
 export default function Home() {
@@ -24,31 +25,14 @@ export default function Home() {
 <div>
   
       <Head>
-        <title> Test Register</title>
+        <title> EndoMeet Registration</title>
         <link rel="preconnect" href="https://fonts.googleapis.com"/>
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true"/>
         <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap" rel="stylesheet"/>
       </Head>
 
       <body>
-
-         <div className={style.navbar}>
-            <div>
-            <a href="#">EndoMeet!</a>
-            <a href="#">About</a>
-            <a href="#">Forum</a>
-            </div>
-
-            <div className={style.searchbar}>
-            <input type="text" id="search" name="search" placeholder='Search'/>
-            </div>
-
-            <div>
-            <a href="#">Login</a>
-            <a href="#">Pic</a>
-            </div>
-         
-         </div>
+        <Header />
 
         <div className={style.middle}>
             
@@ -74,36 +58,38 @@ export default function Home() {
                             <input type="text" placeholder="Password" required/>
                         </div>
                     </div>
+                    <div className={style.birthdetails}>
+                        <label className={style.dateofbirth} htmlFor="dob">Date of Birth:</label>
+                        <input className={style.dateinput} type="date" id="birthday" name="birthday"></input>
+                    </div>
                     <div className={style.genderdetails}>
                         <span className={style.gendertitle}>Gender</span>
                         <div className={style.category}>
-                            <label htmlFor="">
+                            <label className={style.genderlabel}>
                                 <span className={style.gender}>Female</span>
-                                <input className={style.dot} type="radio"/>
+                                <input className={style.dot} type="radio" id="female" name="gender" value="female"/>
                             </label>
-                            <label htmlFor="">
+                            <label className={style.genderlabel}>
                                 <span className={style.gender}>Male</span>
-                                <input className={style.dot} type="radio"/>
+                                <input className={style.dot} type="radio" id="male" name="gender" value="male"/>
                             </label>
-                            <label htmlFor="">
+                            <label className={style.genderlabel}>
                                 <span className={style.gender}>Diverse</span>
-                                <input className={style.dot} type="radio"/>
+                                <input className={style.dot} type="radio" id="diverse" name="gender" value="diverse"/>
                             </label>
                         </div>
                     </div>
-                    <div className={style.button}>
-                        <input type="submit" value="Sign up"/>
+                    <div className={style.registerbuttonalign}>
+                        <input className={style.registerbutton} type="submit" value="Sign up"/>
                     </div>
                 </form>
             </div>
            
         </div>
 
-        <div className={style.legal_content}>
-        <span className="legal-text">&#169; EndoMeet</span>   <a href="#">Contact</a>   <a href="#">Data Protection</a> <a href="#">Cookies</a>
-        </div>
-
-      </body>
+        
+        <Footer/>
+     </body>
 </div>
   )
 }

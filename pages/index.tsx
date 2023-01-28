@@ -3,8 +3,8 @@ import Image from 'next/image'
 import couple from '../images/couple.png'
 import style from '../styles/layout.module.css'
 import React from 'react';
-
-
+import Header from '../components/header';
+import Footer from '../components/footer';
 
 
 export default function Home() {
@@ -34,35 +34,16 @@ export default function Home() {
 
       <body>
 
-         <div className={style.navbar}>
-            <div>
-            <a href="#">EndoMeet!</a>
-            <a href="#">About</a>
-            <a href="#">Forum</a>
-            </div>
+        <Header />
 
-            <div className={style.searchbar}>
-            <input type="text" id="search" name="search" placeholder='Search'/>
+          <div className={style.middle}>
+            <div className={style.test}>
+              <h1 className={style.welcome}> Welcome to <span>EndoMeet!</span></h1>
+              <Image className={style.couple} src={couple} alt="couple"/> 
             </div>
-
-            <div>
-            <a href="#">Login</a>
-            <a href="#">Pic</a>
-            </div>
-         
-         </div>
-
-        <div className={style.middle}>
-          <div>
-            <h1 className={style.welcome}> Welcome to <span>EndoMeet!</span></h1>
-            <Image className={style.couple} src={couple} alt="couple"/> 
           </div>
-        </div>
 
-
-        <div className={style.legal_content}>
-        <span className="legal-text">&#169; EndoMeet</span>   <a href="#">Contact</a>   <a href="#">Data Protection</a> <a href="#">Cookies</a>
-        </div>
+        <Footer/>
 
       </body>
 </div>

@@ -2,6 +2,8 @@ import Head from 'next/head'
 import Image from 'next/image'
 import style from '../styles/layout.module.css'
 import React from 'react';
+import Header from '../components/header';
+import Footer from '../components/footer';
 
 
 export default function Home() {
@@ -30,27 +32,11 @@ export default function Home() {
       </Head>
 
       <body>
-
-         <div className={style.navbar}>
-            <div>
-            <a href="#">EndoMeet!</a>
-            <a href="#">About</a>
-            <a href="#">Forum</a>
-            </div>
-
-            <div className={style.searchbar}>
-            <input type="text" id="search" name="search" placeholder='Search'/>
-            </div>
-
-            <div>
-            <a href="#">Login</a>
-            <a href="#">Pic</a>
-            </div>
-         
-         </div>
+        <Header/>
 
         <div className={style.middle}>
-            <form className={style.form}>
+            
+                    <form className={style.form}>
                      <h2>Fill out form to be matched</h2>
                      <legend>What is your linkage to endometriosis?</legend>
                      <div>
@@ -173,13 +159,12 @@ export default function Home() {
 
                     </div>
             </form>
+           
         </div>
 
-        <div className={style.legal_content}>
-        <span className="legal-text">&#169; EndoMeet</span>   <a href="#">Contact</a>   <a href="#">Data Protection</a> <a href="#">Cookies</a>
-        </div>
-
-      </body>
+    <Footer/>
+      
+    </body>
 </div>
   )
 }
