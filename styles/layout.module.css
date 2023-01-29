@@ -332,6 +332,60 @@ form .registerbutton:hover {
     text-decoration: underline;
 }
 
+/* about page */
+
+.about {
+    padding: 20px;
+    position: center;
+    left: 273px;
+    top: 20px;
+}
+
+
+.abouttitle {
+    font-weight: 30;
+    font-size: 40px;
+    line-height: 65px;
+    position: top;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+
+.abouttitle span {
+    color: #6B4CBD;
+    font-weight: 400;
+}
+
+
+.aboutbox {
+    position: absolute;
+    width: 305px;
+    height: 280px;
+    left: 146px;
+    top: 300px;
+    background-color: #B5A5DE;
+}
+
+.aboutbox2 {
+    position: absolute;
+    width: 305px;
+    height: 280px;
+    left: 567px;
+    top: 300px;
+    background-color: #B5A5DE;
+}
+
+.aboutbox3 {
+    position: absolute;
+    width: 305px;
+    height: 280px;
+    left: 989px;
+    top: 300px;
+    background-color: #B5A5DE;
+}
+
 /*#dot:checked {
     border-color: #6B4CBD;
     background: #91E3C9;
