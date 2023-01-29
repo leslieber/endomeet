@@ -37,7 +37,10 @@ export default function Home() {
         <div className={style.middle}>
             
                     <form className={style.form}>
-                     <h2>Fill out form to be matched</h2>
+                        <div className={style.titleform2}>
+                             <h2>Fill out form to be matched</h2>
+                        </div>
+                     <br/>
                      <legend>What is your linkage to endometriosis?</legend>
                      <div>
                         <input 
@@ -153,10 +156,8 @@ export default function Home() {
                         />
                         <label htmlFor="preference">I don't have a preference.</label>
                     </div>   
-                    <br/>
-                    <div className={style.form_button}>
-                    <input type="submit" value="Submit"/>
-
+                    <div className={style.registerbuttonalign}>
+                        <input className={style.registerbutton} type="submit" value="Submit"/>
                     </div>
             </form>
            

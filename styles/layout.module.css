@@ -1,7 +1,7 @@
 /*header - navigation bar*/
 .navbar {
     grid-area: header;
-    display: flex; 
+    display: flex;
     justify-content: space-between;
     align-items: center;
     background: #91E3C9;
@@ -46,12 +46,12 @@
     /* Center the text inside the middle container */
     margin: 0 auto;
     /* Center the container horizontally */
-    display:flex;
+    display: flex;
     flex-direction: row;
     border-radius: 5px;
     background-color: #D9D9D9;
     height: 28px;
-   
+
 }
 
 .searchbar input {
@@ -61,11 +61,11 @@
     padding-left: 10px;
 }
 
-.lensbutton{
+.lensbutton {
     all: unset;
     padding-top: 3px;
     padding-right: 5px;
-    cursor: pointer; 
+    cursor: pointer;
     border-radius: 10px;
 }
 
@@ -76,20 +76,20 @@
 .lens {
     width: 21px;
     height: 24px;
-    
+
 }
 
-.loginpic{
-    display:flex;
+.loginpic {
+    display: flex;
     flex-direction: row;
-   
+
 }
 
-.profilepic{
+.profilepic {
     width: 28px;
     height: 29px;
     margin-right: 16px;
-       
+
 }
 
 /*middle Part of our website*/
@@ -168,7 +168,7 @@
 /*form page: form for matchmaking*/
 
 .form {
-    padding: 50px;
+    padding: 20px;
     position: center;
     width: 700px;
     height: 750px;
@@ -181,18 +181,18 @@
     border-radius: 5px;
 }
 
+.titleform2 {
+    font-size: 19px;
+    font-weight: 400;
+    position: top;
+    text-align: center;
+}
+
 .form legend {
     color: #6B4CBD;
     font-weight: 800;
 }
 
-/*.form_button {
-
-}*/
-
-.form_button:hover {
-    background-color: #8EE1C6;
-}
 
 
 /*registration page: register form*/
@@ -257,9 +257,9 @@
     padding-left: 7px;
 }
 
-form .birthdetails{
-    display:flex;
-    flex-direction:column;
+form .birthdetails {
+    display: flex;
+    flex-direction: column;
     width: 90%;
     margin-bottom: 10px;
 
@@ -268,10 +268,10 @@ form .birthdetails{
 form .dateofbirth {
     font-size: 22px;
     font-weight: 400;
-    margin: 5px; 
+    margin: 5px;
 }
 
-form .dateinput{
+form .dateinput {
     margin-left: 7px;
     padding: 5px;
     font-size: 16px;
@@ -306,7 +306,7 @@ form .genderdetails .category {
     padding-right: 7px;
 }
 
-form .registerbuttonalign{
+form .registerbuttonalign {
     display: flex;
     justify-content: center;
     margin-top: 20px;
@@ -326,8 +326,8 @@ form .registerbutton {
     background-color: #8EE1C6;
 }
 
-form .registerbutton:hover{
-    cursor: pointer; 
+form .registerbutton:hover {
+    cursor: pointer;
     color: white;
     text-decoration: underline;
 }
