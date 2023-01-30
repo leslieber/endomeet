@@ -8,8 +8,8 @@ function Header() {
         <div className={style.navbar}>
 
             <div>
-            <a href="#">EndoMeet!</a>
-            <a href="#">About</a>
+            <a href="../">EndoMeet!</a>
+            <a href="../about">About</a>
             <a href="#">Forum</a>
             </div>
 
@@ -19,7 +19,7 @@ function Header() {
             </div>
 
             <div className={style.loginpic}>
-            <a href="#">Login</a>
+            <a href="../login">Login</a>
             <Image className={style.profilepic} src={profilepic} alt="profilepic" />
             </div>
          
