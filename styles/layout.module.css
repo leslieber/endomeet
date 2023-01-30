@@ -332,6 +332,14 @@ form .registerbutton:hover {
     text-decoration: underline;
 }
 
+.inputboxtwo input:focus {
+    border: 2px solid rgba(107, 76, 189, 0.5);
+}
+
+.inputboxtwo input {
+    outline: none;
+}
+
 /* about page */
 
 .about {
@@ -502,6 +510,7 @@ first name, last name, e-mail and button are conected to registration form style
     width: 290px;
     height: 285px;
 }
+
 
 
 
