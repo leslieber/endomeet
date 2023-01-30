@@ -20,7 +20,7 @@ function Header() {
 
             <div className={style.loginpic}>
             <a href="../login">Login</a>
-            <a href="../form"> <Image className={style.profilepic} src={profilepic} alt="profilepic" /> </a>
+            <a href="../form"><Image className={style.profilepic} src={profilepic} alt="profilepic" /> </a>
             </div>
          
          </div>
