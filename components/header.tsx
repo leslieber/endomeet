@@ -10,7 +10,7 @@ function Header() {
             <div>
             <a href="../">EndoMeet!</a>
             <a href="../about">About</a>
-            <a href="#">Forum</a>
+            <a href="../login">Forum</a>
             </div>
 
             <div className={style.searchbar}>
