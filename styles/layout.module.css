@@ -336,11 +336,22 @@ form .registerbutton:hover {
 
 .about {
     padding: 20px;
-    position: center;
-    left: 273px;
-    top: 20px;
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
 }
 
+.about p {
+    font-weight: 30;
+    font-size: 30px;
+    text-align: center;
+
+}
+
+.about span {
+    color: #6B4CBD;
+
+}
 
 .abouttitle {
     font-weight: 30;
@@ -350,7 +361,8 @@ form .registerbutton:hover {
     color: #000000;
     text-align: center;
     margin-bottom: 0px;
-    margin-top: 10px;
+    margin-top: 2px;
+    right: 0px;
 }
 
 .abouttitle span {
@@ -358,15 +370,40 @@ form .registerbutton:hover {
     font-weight: 400;
 }
 
+.aboutboxes {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+
+}
+
+.aboutbox p {
+    color: white;
+    text-align: center;
+}
+
 
 .aboutbox {
-    position: absolute;
     width: 305px;
     height: 280px;
-    left: 146px;
-    top: 300px;
-    background-color: #B5A5DE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+    background-color: rgba(107, 76, 189, 0.5);
+
+
+    border-radius: 5px;
+    border: 2px solid rgba(107, 76, 189, 0.5);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+
+
 }
+
+
 
 .aboutbox2 {
     position: absolute;
@@ -375,6 +412,10 @@ form .registerbutton:hover {
     left: 567px;
     top: 300px;
     background-color: #B5A5DE;
+
+    padding: 25px 30px;
+    border-radius: 5px;
+    border: 2px solid rgba(107, 76, 189, 0.5);
 }
 
 .aboutbox3 {
@@ -384,17 +425,21 @@ form .registerbutton:hover {
     left: 989px;
     top: 300px;
     background-color: #B5A5DE;
+
+    padding: 25px 30px;
+    border-radius: 5px;
+    border: 2px solid rgba(107, 76, 189, 0.5);
 }
 
 /* contact us page */
 
 .twocolumnpage {
-    
+
     display: flex;
     justify-content: space-between;
     margin: 10px;
     align-items: center;
-    
+
 }
 
 .contacttext {
@@ -404,7 +449,7 @@ form .registerbutton:hover {
 }
 
 .contacttext h1 {
-    color:#6B4CBD;
+    color: #6B4CBD;
 }
 
 /*information about style of the contact form: 
@@ -425,15 +470,15 @@ first name, last name, e-mail and button are conected to registration form style
     margin: 5px;
 }
 
-.message{
-    
+.message {
+
     margin-left: 5px;
     height: 100px;
     font-size: 18px;
     background: #ebebeb;
     border-radius: 5px;
     padding-left: 7px;
-    
+
 }
 
 /*Login page*/
@@ -452,7 +497,7 @@ first name, last name, e-mail and button are conected to registration form style
 }
 
 
-.couplelog{
+.couplelog {
     align-items: center;
     width: 290px;
     height: 285px;
@@ -464,7 +509,7 @@ first name, last name, e-mail and button are conected to registration form style
 .loginbuttonalign {
     display: flex;
     justify-content: center;
- 
+
 }
 
 .loginbutton {
@@ -482,7 +527,7 @@ first name, last name, e-mail and button are conected to registration form style
     width: 98%;
     height: 40px;
     font-size: 22px;
-    
+
 }
 
 .loginbutton:hover {
@@ -503,13 +548,13 @@ first name, last name, e-mail and button are conected to registration form style
     text-decoration: underline;
 }
 
-.createnewacc{
+.createnewacc {
     display: flex;
     justify-content: center;
     margin-top: 20px;
     font-size: 22px;
     color: #6B4CBD;
-     
+
 }
 
 .createnewacc a {

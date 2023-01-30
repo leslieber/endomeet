@@ -25,7 +25,7 @@ export default function Home() {
 <div>
   
       <Head>
-        <title> Test Register</title>
+        <title>About page </title>
         <link rel="preconnect" href="https://fonts.googleapis.com"/>
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true"/>
         <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap" rel="stylesheet"/>
@@ -35,14 +35,21 @@ export default function Home() {
         <Header/>
 
         <div className={style.middle}>
-            <div className={style.about} >
-                <h1 className={style.abouttitle}>Why <span>EndoMeet!?</span></h1>
+            <div className={style.about}>
+              <h1 className={style.abouttitle}>Why <span>EndoMeet!?</span></h1>
+              <p><span>EndoMeet!</span> is an exchanging platform that matches people affected by endometriosis in any form <br/> into groups for exchanging experiences, getting tips and for those affected to feel beeter understood. </p>
+            <div className={style.aboutboxes}>
+                <div className={style.aboutbox}>
+                 <p>For women with endometriosis. </p>
+                </div>
+                <div className={style.aboutbox}>
+                  <p>For women who might have endometriosis.</p>
+                </div>
+                <div className={style.aboutbox}>
+                  <p>For surrounding to understand endometriosis.</p>
+                </div>
             </div>
-            <div>
-                <div>className={style.aboutbox}</div>
-                <div>className={style.aboutbox2}</div>
-                <div>className={style.aboutbox3}</div>
-            </div>
+                </div>
         </div>
 
     <Footer/>
