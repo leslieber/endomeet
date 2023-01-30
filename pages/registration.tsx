@@ -38,7 +38,7 @@ export default function Home() {
             
             <div className={style.box} >
                 <div className={style.titleform}>Registration</div>
-                <form action="#">
+                <form action="#" lang="en">
                     <div className={style.userfullname}>
                         <div className={style.inputbox}>
                             <input type="text" placeholder="First Name" required/>

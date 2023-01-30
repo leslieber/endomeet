@@ -82,6 +82,7 @@
 .loginpic {
     display: flex;
     flex-direction: row;
+    align-items: center;
 
 }
 
@@ -89,8 +90,11 @@
     width: 28px;
     height: 29px;
     margin-right: 16px;
+    margin-top: 7px;
 
 }
+
+
 
 /*middle Part of our website*/
 
@@ -193,6 +197,16 @@
     font-weight: 800;
 }
 
+.dot[name=linkage], .dot[name=groups],
+.dot[name=people] {
+    accent-color: rgb(107, 76, 189, 0.5);
+    outline: none;
+}
+
+.check[name=usage]{
+    accent-color: rgb(107, 76, 189, 0.5);
+    outline: none;
+}
 
 
 /*registration page: register form*/
@@ -257,6 +271,17 @@
     padding-left: 7px;
 }
 
+.inputbox input:focus, .inputboxtwo input:focus {
+    outline: none;
+    border: 3px solid rgba(107, 76, 189, 0.5);
+}
+
+.form input:focus {
+    outline: none;
+    border: 3px solid rgba(107, 76, 189, 0.5);
+}
+
+
 form .birthdetails {
     display: flex;
     flex-direction: column;
@@ -277,6 +302,11 @@ form .dateinput {
     font-size: 16px;
 }
 
+form .dateinput:focus {
+    outline: none;
+    border: 3px solid rgba(107, 76, 189, 0.5);
+}
+
 form .genderdetails .gendertitle {
     font-size: 22px;
     font-weight: 400;
@@ -295,6 +325,13 @@ form .genderdetails .category {
 
 .genderdetails .category .dot {
     margin-left: 15px;
+}
+
+
+
+.dot[name=gender]{
+    accent-color: rgb(107, 76, 189, 0.5);
+    outline: none;
 }
 
 .genderlabel {
@@ -332,13 +369,11 @@ form .registerbutton:hover {
     text-decoration: underline;
 }
 
-.inputboxtwo input:focus {
-    border: 2px solid rgba(107, 76, 189, 0.5);
+form .registerbutton:active {
+    outline: none;
+    border: 3px solid rgba(107, 76, 189, 0.5);
 }
 
-.inputboxtwo input {
-    outline: none;
-}
 
 /* about page */
 
@@ -398,46 +433,13 @@ form .registerbutton:hover {
     justify-content: center;
     align-items: center;
 
-
-
     background-color: rgba(107, 76, 189, 0.5);
-
-
     border-radius: 5px;
     border: 2px solid rgba(107, 76, 189, 0.5);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
-
-
 }
 
-
-
-.aboutbox2 {
-    position: absolute;
-    width: 305px;
-    height: 280px;
-    left: 567px;
-    top: 300px;
-    background-color: #B5A5DE;
-
-    padding: 25px 30px;
-    border-radius: 5px;
-    border: 2px solid rgba(107, 76, 189, 0.5);
-}
-
-.aboutbox3 {
-    position: absolute;
-    width: 305px;
-    height: 280px;
-    left: 989px;
-    top: 300px;
-    background-color: #B5A5DE;
-
-    padding: 25px 30px;
-    border-radius: 5px;
-    border: 2px solid rgba(107, 76, 189, 0.5);
-}
 
 /* contact us page */
 
