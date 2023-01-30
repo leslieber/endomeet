@@ -491,6 +491,13 @@ first name, last name, e-mail and button are conected to registration form style
 
 }
 
+.message:focus {
+    outline: none;
+    border: 3px solid rgba(107, 76, 189, 0.5);
+}
+
+
+
 /*Login page*/
 
 .loginheader {
