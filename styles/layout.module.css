@@ -95,7 +95,6 @@
 }
 
 
-
 /*middle Part of our website*/
 
 .middle {
@@ -175,7 +174,6 @@
     padding: 20px;
     position: center;
     width: 700px;
-    height: 750px;
     left: 273px;
     top: 100px;
 
@@ -185,17 +183,24 @@
     border-radius: 5px;
 }
 
-.titleform2 {
-    font-size: 19px;
-    font-weight: 400;
+.titleform2 h2 {
+    font-size: 30px;
+    font-weight: 500;
     position: top;
     text-align: center;
+    border-bottom: 1px solid black;
 }
 
 .form legend {
     color: #6B4CBD;
     font-weight: 800;
+    font-size: 22px;
 }
+
+.form label {
+    font-size: 18px;
+}
+
 
 .dot[name=linkage],
 .dot[name=groups],
@@ -329,8 +334,6 @@ form .genderdetails .category {
     margin-left: 15px;
 }
 
-
-
 .dot[name=gender] {
     accent-color: rgb(107, 76, 189, 0.5);
     outline: none;
@@ -426,6 +429,12 @@ form .registerbutton:active {
     margin-top: 2px;
     right: 0px;
 }
+.bottomline {
+    border-bottom: 1px solid black;
+    margin-left: 60px;
+    margin-right: 60px;
+
+}
 
 .abouttitle2 p {
     text-align: left;
@@ -442,6 +451,8 @@ form .registerbutton:active {
     display: flex;
     justify-content: space-between;
     margin-top: 15px;
+    margin-left: 60px;
+    margin-right: 60px;
 
 }
 
@@ -488,7 +499,7 @@ form .registerbutton:active {
 }
 
 /*information about style of the contact form: 
-first name, last name, e-mail and button are conected to registration form style*/
+first name, last name, e-mail and button are connected to registration form style*/
 
 
 .yourmessage {
@@ -544,9 +555,6 @@ first name, last name, e-mail and button are conected to registration form style
     width: 290px;
     height: 285px;
 }
-
-
-
 
 
 .loginbuttonalign {
@@ -616,13 +624,3 @@ first name, last name, e-mail and button are conected to registration form style
     color: white;
 }
 
-
-/*#dot:checked {
-    border-color: #6B4CBD;
-    background: #91E3C9;
-}*/
-
-/*.genderdetails .category label{
-    display: flex;
-    align-items: center;
-}*/
