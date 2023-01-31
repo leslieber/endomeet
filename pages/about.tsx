@@ -97,6 +97,9 @@ export default function Home() {
                       <br/>
                       These resources offer a wealth of information on endometriosis, including symptoms, causes, diagnosis, treatment options, and support resources.</p>
                 </div>
+                <div className={style.createnewacc}>
+                    <Link href="../registration">Create a new account</Link> 
+                    </div>
             </div>
         </div>
 
