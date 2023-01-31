@@ -26,7 +26,7 @@ export default function Home() {
 <div>
   
       <Head>
-        <title> Test Register</title>
+        <title> EndoMeet Form</title>
         <link rel="preconnect" href="https://fonts.googleapis.com"/>
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true"/>
         <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap" rel="stylesheet"/>

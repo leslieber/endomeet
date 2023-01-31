@@ -37,7 +37,7 @@ export default function Home() {
         <Header />
 
           <div className={style.middle}>
-            <div className={style.test}>
+            <div>
               <h1 className={style.header}> Welcome to <span>EndoMeet!</span></h1>
               <Image className={style.couple} src={couple} alt="couple"/> 
             </div>
