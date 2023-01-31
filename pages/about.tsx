@@ -55,21 +55,21 @@ export default function Home() {
                   <br/>
 
                 <div className={style.abouttreatment}>
-                  <h1 className={style.abouttitle2}>General Information about Endometriosis</h1>
+                  <h1 className={style.abouttitle2}><span>General Information about Endometriosis</span></h1>
                   <h2 className={style.abouttitle2}>What is Endometriosis?</h2>
                     <p>Endometriosis is a medical condition that affects women in their reproductive years. 
                       It occurs when the tissue that normally lines the inside of the uterus (endometrium) grows outside of it, 
                       on other organs such as the ovaries, fallopian tubes, or tissue lining the pelvis. This misplaced tissue continues to act as it normally would — 
                       thickening, breaking down, and bleeding with each menstrual cycle. 
                       However, because it has no way to exit the body, it becomes trapped, causing inflammation, pain, and the formation of scar tissue. 
-                      This can lead to various symptoms such as severe menstrual cramps, painful intercourse, bloating, and bowel and bladder issues, as well as potential infertility. 
+                      This can lead to various symptoms such as severe menstrual cramps, painful sexual intercourse, bloating, and bowel and bladder issues, as well as potential infertility. 
                       Endometriosis affects approximately 1 in 10 women of reproductive age, and is often misdiagnosed or underdiagnosed due to its wide range of symptoms.</p>
                 </div>
                   <br/>
                   <br/>
                 <div className={style.abouttreatment}>
                   <h2 className={style.abouttitle2}>Treatment Options</h2>
-                      <p>Treatment options for endometriosis aim to relieve pain and improve quality of life, as well as manage fertility if desired. Some common treatment options include:
+                      <p>Treatment options for endometriosis aim to relieve pain, improve quality of life, as well as manage fertility if desired. Some common treatment options include:
                       <br/>
                       <br/>
                       <span>Medication:</span> Over-the-counter pain relievers and anti-inflammatory drugs can help relieve menstrual cramps and pain. Hormonal therapies such as birth control pills, patches, or intrauterine devices (IUDs) can reduce the growth of endometrial tissue and regulate menstrual cycles. GnRH (gonadotropin-releasing hormone) agonists can temporarily halt menstrual cycles and reduce endometrial growth.
@@ -83,23 +83,16 @@ export default function Home() {
                 </div>
                 <div className={style.abouttreatment}>
                   <h2 className={style.abouttitle2}>Useful Links</h2>
-                      <p>Here are some trustworthy websites that can provide you with more information about endometriosis:
+                      <p>Here are some websites that can provide you with more information about endometriosis:
                       <br/>
                       <br/>
-
-                      <Link href="https://www.mayoclinic.org/diseases-conditions/endometriosis/symptoms-causes/syc-20354656"> <span>Mayo Clinic</span> </Link>
-                      <br/>
-                      <Link href="https://www.mayoclinic.org/diseases-conditions/endometriosis/symptoms-causes/syc-20354656"> <span>Mayo Clinic</span> </Link>
-                      <span>American College of Obstetricians and Gynecologists (ACOG):</span> https://www.acog.org/patient-resources/faqs/gynecologic-problems/endometriosis
+                      <Link href="https://www.acog.org/patient-resources/faqs/gynecologic-problems/endometriosis"> <span> American College of Obstetricians and Gynecologists (ACOG): </span> https://www.acog.org/patient-resources/faqs/gynecologic-problems/endometriosis</Link>
                       <br/>
                       <br/>
-                      <span> Endometriosis Foundation of America: https://www.endofound.org/endometriosis</span>
+                      <Link href="https://www.endofound.org/endometriosis"> <span> Endometriosis Foundation of America: </span> https://www.endofound.org/endometriosis</Link>
                       <br/>
                       <br/>
-                      <span>National Institute of Child Health and Human Development (NICHD):</span> https://www.nichd.nih.gov/health/topics/endometriosis
-                      <br/>
-                      <br/>
-                      <span>Office on Women's Health, U.S. Department of Health and Human Services:</span> https://www.womenshealth.gov/a-z-topics/endometriosis
+                      <Link href="https://www.womenshealth.gov/a-z-topics/endometriosis"> <span> Office on Women's Health, U.S. Department of Health and Human Services: </span> https://www.womenshealth.gov/a-z-topics/endometriosis</Link>
                       <br/>
                       <br/>
                       These resources offer a wealth of information on endometriosis, including symptoms, causes, diagnosis, treatment options, and support resources.</p>
