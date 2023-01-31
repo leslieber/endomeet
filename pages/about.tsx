@@ -59,6 +59,7 @@ export default function Home() {
                   <h1 className={style.abouttitle2}><span>General Information about Endometriosis</span></h1>
                   <div className={style.bottomline}></div>
                   <br/>
+                  <br/>
                   <h2 className={style.abouttitle2}>What is Endometriosis?</h2>
                     <p>Endometriosis is a medical condition that affects women in their reproductive years. 
                       It occurs when the tissue that normally lines the inside of the uterus (endometrium) grows outside of it, 
