@@ -5,6 +5,8 @@ import style from '../styles/layout.module.css'
 import React from 'react';
 import Header from '../components/header';
 import Footer from '../components/footer';
+import Link from 'next/link';
+
 
 
 export default function Home() {
@@ -63,11 +65,11 @@ export default function Home() {
                         <input className={style.loginbutton} type="submit" value="Log in"/>
                     </div>
                     <div className={style.forgotpw}>
-                    <a href="#">Forgot your password?</a>
+                    <Link href="#">Forgot your password?</Link>
                     </div>
                     
                     <div className={style.createnewacc}>
-                    <a href="../registration">Create a new account</a> 
+                    <Link href="../registration">Create a new account</Link> 
                     </div>
                 </form>
             </div>

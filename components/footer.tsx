@@ -1,9 +1,10 @@
 import style from '../styles/layout.module.css'
+import Link from 'next/link';
 
 function Footer() {
     return (
         <div className={style.legal_content}>
-        <span className="legal-text">&#169; EndoMeet</span>   <a href="../contact">Contact</a>   <a href="#">Data Protection</a> <a href="#">Cookies</a>
+        <span className="legal-text">&#169; EndoMeet</span> <Link href="#">Impressum</Link>   <Link href="../contact">Contact</Link>   <Link href="#">Data Protection</Link> <Link href="#">Cookies</Link>
         </div>
     )
 }

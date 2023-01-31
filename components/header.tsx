@@ -10,8 +10,8 @@ function Header() {
 
             <div>
             <Link href="../">EndoMeet!</Link>
-            <a href="../about">About</a>
-            <a href="../login">Forum</a>
+            <Link href="../about">About</Link>
+            <Link href="../login">Forum</Link>
             </div>
 
             <div className={style.searchbar}>
@@ -20,8 +20,8 @@ function Header() {
             </div>
 
             <div className={style.loginpic}>
-            <a href="../login">Login</a>
-            <a href="../form"><Image className={style.profilepic} src={profilepic} alt="profilepic" /> </a>
+            <Link href="../login">Login</Link>
+            <Link href="../form"><Image className={style.profilepic} src={profilepic} alt="profilepic" /> </Link>
             </div>
          
          </div>
