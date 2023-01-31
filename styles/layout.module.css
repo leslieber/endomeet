@@ -379,6 +379,12 @@ form .registerbutton:active {
     border: 3px solid rgba(107, 76, 189, 0.5);
 }
 
+.cookietext {
+    font-size: 13px;
+    color: #5C5454;
+    margin-left: 5px;
+}
+
 
 /* about page */
 

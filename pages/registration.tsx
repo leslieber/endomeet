@@ -41,29 +41,29 @@ export default function Home() {
                 <form action="#" lang="en">
                     <div className={style.userfullname}>
                         <div className={style.inputbox}>
-                            <input type="text" placeholder="First Name" required/>
+                            <input type="text" placeholder="First Name*" required/>
                         </div>
                         <div className={style.inputbox}>
-                            <input type="text" placeholder="Last Name" required/>
+                            <input type="text" placeholder="Last Name*" required/>
                         </div>
                     </div>
                     <div className={style.userdetails}>
                         <div className={style.inputboxtwo}>
-                            <input type="text" placeholder="Username" required/>
+                            <input type="text" placeholder="Username*" required/>
                         </div>
                         <div className={style.inputboxtwo}>
-                            <input type="text" placeholder="E-mail address" required/>
+                            <input type="text" placeholder="E-mail address*" required/>
                         </div>
                         <div className={style.inputboxtwo}>
-                            <input type="text" placeholder="Password" required/>
+                            <input type="text" placeholder="Password*" required/>
                         </div>
                     </div>
                     <div className={style.birthdetails}>
-                        <label className={style.dateofbirth} htmlFor="dob">Date of Birth:</label>
+                        <label className={style.dateofbirth} htmlFor="dob">Date of Birth*</label>
                         <input className={style.dateinput} type="date" id="birthday" name="birthday"></input>
                     </div>
                     <div className={style.genderdetails}>
-                        <span className={style.gendertitle}>Gender</span>
+                        <span className={style.gendertitle}>Gender*</span>
                         <div className={style.category}>
                             <label className={style.genderlabel}>
                                 <span className={style.gender}>Female</span>
@@ -78,6 +78,7 @@ export default function Home() {
                                 <input className={style.dot} type="radio" id="diverse" name="gender" value="diverse"/>
                             </label>
                         </div>
+                        <p className={style.cookietext}>By clicking Sign Up, you agree to our Terms. Learn how we collect, use and share your data in <br/> our Privacy Policy and how we use cookies and similar technology in our Cookies Policy.</p>
                     </div>
                     <div className={style.registerbuttonalign}>
                         <input className={style.registerbutton} type="submit" value="Sign up"/>
