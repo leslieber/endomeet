@@ -197,13 +197,14 @@
     font-weight: 800;
 }
 
-.dot[name=linkage], .dot[name=groups],
+.dot[name=linkage],
+.dot[name=groups],
 .dot[name=people] {
     accent-color: rgb(107, 76, 189, 0.5);
     outline: none;
 }
 
-.check[name=usage]{
+.check[name=usage] {
     accent-color: rgb(107, 76, 189, 0.5);
     outline: none;
 }
@@ -271,7 +272,8 @@
     padding-left: 7px;
 }
 
-.inputbox input:focus, .inputboxtwo input:focus {
+.inputbox input:focus,
+.inputboxtwo input:focus {
     outline: none;
     border: 3px solid rgba(107, 76, 189, 0.5);
 }
@@ -329,7 +331,7 @@ form .genderdetails .category {
 
 
 
-.dot[name=gender]{
+.dot[name=gender] {
     accent-color: rgb(107, 76, 189, 0.5);
     outline: none;
 }
@@ -388,12 +390,12 @@ form .registerbutton:active {
     font-weight: 30;
     font-size: 30px;
     text-align: center;
-
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
 .about span {
     color: #6B4CBD;
-
 }
 
 .abouttitle {
@@ -411,6 +413,29 @@ form .registerbutton:active {
 .abouttitle span {
     color: #6B4CBD;
     font-weight: 400;
+}
+
+.abouttitle2 {
+    font-weight: 30;
+    font-size: 40px;
+    line-height: 65px;
+    position: top;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 2px;
+    right: 0px;
+}
+
+.abouttitle2 p {
+    text-align: left;
+}
+
+.abouttreatment p {
+    align-items: left;
+    text-align: justify;
+    margin-left: 60px;
+    margin-right: 60px;
 }
 
 .aboutboxes {

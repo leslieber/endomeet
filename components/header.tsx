@@ -2,13 +2,14 @@ import style from '../styles/layout.module.css'
 import Image from 'next/image'
 import lens from '../images/lens.png'
 import profilepic from '../images/profile.png'
+import Link from 'next/link';
 
 function Header() {
     return (
         <div className={style.navbar}>
 
             <div>
-            <a href="../">EndoMeet!</a>
+            <Link href="../">EndoMeet!</Link>
             <a href="../about">About</a>
             <a href="../login">Forum</a>
             </div>
